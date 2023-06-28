@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: 'jinlog'
+          BASE_PATH: '/jinlog'
         run: |
           npm run build
           touch build/.nojekyll
